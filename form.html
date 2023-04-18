@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Formulario</h1>
+	<form>
+		<label for="nombre">Nombre y Apellidos:</label>
+		<input type="text" id="nombre" name="nombre"><br><br>
+php
+Copy code
+	<label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+	<input type="time" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+
+	<label for="ocupacion">Ocupación:</label>
+	<input type="text" id="ocupacion" name="ocupacion"><br><br>
+
+	<label for="contacto">Contacto (telefono, email):</label>
+	<input type="text" id="contacto" name="contacto"><br><br>
+
+	<label for="nacionalidad">Nacionalidad:</label>
+	<select id="nacionalidad" name="nacionalidad">
+		<option value="Argentina">Argentina</option>
+		<option value="Chile">Chile</option>
+		<option value="Colombia">Colombia</option>
+		<option value="Mexico">Mexico</option>
+		<option value="Peru">Peru</option>
+	</select><br><br>
+
+	<label for="nivel_ingles">Nivel de ingles:</label><br>
+	<input type="radio" id="basico" name="nivel_ingles" value="basico">
+	<label for="basico">Básico</label><br>
+	<input type="radio" id="intermedio" name="nivel_ingles" value="intermedio">
+	<label for="intermedio">Intermedio</label><br>
+	<input type="radio" id="avanzado" name="nivel_ingles" value="avanzado">
+	<label for="avanzado">Avanzado</label><br>
+	<input type="radio" id="fluido" name="nivel_ingles" value="fluido">
+	<label for="fluido">Fluido</label><br><br>
+
+	<label for="lenguajes_programacion">Lenguajes de programación:</label><br>
+	<select id="lenguajes_programacion" name="lenguajes_programacion" multiple>
+		<option value="Java">Java</option>
+		<option value="Python">Python</option>
+		<option value="C++">C++</option>
+		<option value="JavaScript">JavaScript</option>
+		<option value="Ruby">Ruby</option>
+	</select><br><br>
+
+	<label for="aptitudes">Aptitudes:</label>
+	<input type="text" id="aptitudes" name="aptitudes" list="aptitudes_list">
+	<datalist id="aptitudes_list">
+		<option value="Trabajo en equipo">
+		<option value="Comunicación efectiva">
+		<option value="Resolución de problemas">
+		<option value="Liderazgo">
+		<option value="Creatividad">
+	</datalist><br><br>
+
+	<label for="habilidades">Habilidades:</label><br>
+	<input type="checkbox" id="habilidad1" name="habilidades" value="Habilidad 1">
+	<label for="habilidad1">Habilidad 1</label><br>
+	<input type="checkbox" id="habilidad2" name="habilidades" value="Habilidad
