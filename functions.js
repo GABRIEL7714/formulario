@@ -1,3 +1,4 @@
+/*WALTER GABRIEL VALDIVIA BEJARANO*/ 
 /*ALAIN FREIKER MULLISACA RIVERA*/ 
 function captura(){
     var nombre = document.getElementById("nombre").value;
